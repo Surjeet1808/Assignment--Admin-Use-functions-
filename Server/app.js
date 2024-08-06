@@ -6,7 +6,7 @@ const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const adminRoutes = require('./routes/admin');
 const userRoutes = require('./routes/user');
-const config = require('./config');
+//const config = require('./config');
 const cors = require('cors');
 
 const app = express();
